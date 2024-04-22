@@ -1,0 +1,25 @@
+Abaixo está uma instrução que descreve uma tarefa. Escreva uma resposta que complete adequadamente o pedido.
+
+### Instrução:
+Faça um resumo do seguinte texto:
+
+### Entrada:
+PF desarticula banco criado por grupo criminoso para lavar dinheiro do tráfico no Pará
+Entre 2022 e 2023, mais de R$50 milhões foram movimentados pela empresa, segundo o inquérito; doze pessoas foram presas em sete estados, itens de luxo foram apreendidos e mais de uma tonelada de cocaína foi encontrada. Destino da droga era a Europa e a África.
+A Polícia Federal desarticulou um banco criado por grupos criminosos para lavar dinheiro do tráfico internacional de drogas. O First Capital Bank surgiu há 4 anos, segundo a PF, e foi descoberto depois de uma denúncia anônima de 2022, que culminou em uma operação em sete estados e no Distrito Federal.
+Uma denúncia anônima, de julho de 2022, levou os policiais a um sítio em Curuçá, no Pará, onde foi encontrada mais de uma tonelada de cocaína. Duas pessoas foram presas em flagrante, e celulares foram apreendidos.
+Depois de meses de investigações, a polícia deflagrou uma operação no dia 4 de abril, que culminou na prisão de 12 pessoas e a apreensão de computadores, carros de luxo, dinheiro vivo e joias em uma das sedes do grupo, em São Paulo. A Justiça Federal determinou a suspensão das atividades do banco e o bloqueio de valores nas contas da empresa.
+As investigações mostraram que os criminosos contratavam pescadores locais para transportar cocaína em barcos pesqueiros, que eram adaptados com um fundo falso para esconder a droga até chegar ao litoral, de onde seriam enviadas para a Europa e a África. O dinheiro da venda da carga era lavado no First Capital Bank.
+Os investigadores descobriram que os donos captavam pessoas físicas e jurídicas, muitas delas laranjas e empresas de fachada, para fazer movimentações financeiras milionárias.
+Documentos apontam que Regiane Pereira de Oliveira é a sócia majoritária do banco; Nelson Piery da Silva e Nailton Rodrigues Coelho são sócios da empresa e se apresentam como operadores do mercado financeiro.
+Nailton foi preso. Nelson Piery, como mostram imagens obtidas pelo Fantástico, conseguiu escapar minutos antes da chegada dos policiais a sua casa, em condomínio de luxo em São Paulo. Ele é considerado foragido, assim como Regiane, que não foi localizada.
+"A nossa linha de investigação é de que essa mulher, que se apresentava sócia do banco, tinha conhecimento de que o nome dela estava sendo utilizado, sim, para benefício do grupo criminoso. Então ela não figura propriamente, até esse momento da investigação, como uma simples laranja que não sabe do que está ocorrendo. Até o presente momento, o que temos é que ela sabia que o nome dela está sendo utilizado por grupos criminosos para a lavagem de capitais", reforçou o delegado.
+Regiane, Piery e Nailton já foram alvo de uma operação da Polícia Federal em Minas Gerais, no ano passado, pelo mesmo crime de tráfico internacional de drogas e lavagem de dinheiro. O Fantástico não conseguiu contato com as defesas de Regiane, Piery e Nailton.
+O autointitulado banco é uma empresa ativa na Receita Federal e foi registrada na Junta Comercial de São Paulo, mas não como uma instituição financeira. O Banco Central informou que o First Capital Bank nunca foi autorizado a funcionar e a Federal Brasileira de Bancos disse que ele não é cadastrado no seu sistema.
+O suposto banco tinha site na internet, páginas em redes sociais e até vídeos promocionais. Segundo a PF, não há como afirmar se toda a carteira de clientes sabia que o First Capital Bank era controlado por traficantes, e que possíveis clientes devem se manifestar nos próximos dias, já que as atividades da empresa foram suspensas.
+A investigação, agora, caminha para tentar entender de onde saíram os recursos e a ideia para a criação do banco do tráfico e a cooptação dos envolvidos nela.
+Rota do tráfico
+Segundo a PF, o Pará, especialmente nas proximidades do litoral, é um local estratégico para o tráfico internacional de drogas. Isso porque o estado fica próximo a países produtores de cocaína, como Colômbia e Bolívia, tem uma costa enorme, de mais de 550 km, e possui várias rotas de escoamento de drogas, seja por terra ou pelos rios.
+A polícia também aponta que cidades pequenas, como Curuçá, estão constantemente no radar de quem é responsável pela distribuição dos produtos. Nessas regiões, os barcos conseguem fugir da fiscalização de portos legalizados e trafegar pelo interior do estado com mais discrição.
+
+### Resposta:

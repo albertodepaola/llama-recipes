@@ -12,14 +12,14 @@ from torch.utils.data import Dataset
 
 PROMPT_DICT = {
     "prompt_input": (
-        "Below is an instruction that describes a task, paired with an input that provides further context. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:"
+        "Abaixo está uma instrução que descreve uma tarefa, juntamente com uma entrada que fornece mais contexto. "
+        "Escreva uma resposta que complete adequadamente o pedido.\n\n"
+        "### Instrução:\n{instruction}\n\n### Entrada:\n{input}\n\n### Resposta:"
     ),
     "prompt_no_input": (
-        "Below is an instruction that describes a task. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Response:"
+        "Abaixo está uma instrução que descreve uma tarefa. "
+        "Escreva uma resposta que complete adequadamente o pedido.\n\n"
+        "### Instrução:\n{instruction}\n\n### Resposta:"
     ),
 }
 

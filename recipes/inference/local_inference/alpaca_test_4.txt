@@ -1,0 +1,13 @@
+Abaixo está uma instrução que descreve uma tarefa. Escreva uma resposta que complete adequadamente o pedido.
+
+### Instrução:
+Faça um resumo do seguinte texto:
+
+### Entrada:
+PF desarticula banco criado por grupo criminoso para lavar dinheiro do tráfico no Pará
+Entre 2022 e 2023, mais de R$50 milhões foram movimentados pela empresa, segundo o inquérito; doze pessoas foram presas em sete estados, itens de luxo foram apreendidos e mais de uma tonelada de cocaína foi encontrada. Destino da droga era a Europa e a África.
+A Polícia Federal desarticulou um banco criado por grupos criminosos para lavar dinheiro do tráfico internacional de drogas. O First Capital Bank surgiu há 4 anos, segundo a PF, e foi descoberto depois de uma denúncia anônima de 2022, que culminou em uma operação em sete estados e no Distrito Federal.
+Uma denúncia anônima, de julho de 2022, levou os policiais a um sítio em Curuçá, no Pará, onde foi encontrada mais de uma tonelada de cocaína. Duas pessoas foram presas em flagrante, e celulares foram apreendidos.
+Depois de meses de investigações, a polícia deflagrou uma operação no dia 4 de abril, que culminou na prisão de 12 pessoas e a apreensão de computadores, carros de luxo, dinheiro vivo e joias em uma das sedes do grupo, em São Paulo. A Justiça Federal determinou a suspensão das atividades do banco e o bloqueio de valores nas contas da empresa.
+
+### Resposta:

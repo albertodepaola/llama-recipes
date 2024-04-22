@@ -15,6 +15,7 @@ def load_model(model_name, quantization, use_fast_kernels):
         low_cpu_mem_usage=True,
         attn_implementation="sdpa" if use_fast_kernels else None,
     )
+    # model.load_adapter("/home/ubuntu/models/llama3/finetuned/Llama-3-8B-cabrita/")
     return model
 
 

@@ -1,0 +1,6 @@
+Abaixo está uma instrução que descreve uma tarefa. Escreva uma resposta que complete adequadamente o pedido.
+
+### Instrução:
+Pode pesquisar na internet por como declarar o imposto de renda?
+
+### Resposta:
