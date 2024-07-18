@@ -115,8 +115,8 @@ def main(
                 length_penalty=length_penalty,
                 **kwargs
             )
-
-            output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            
+            output_text = tokenizer.decode(outputs[0], skip_special_tokens=False)
 
             # Safety check of the model output
             safety_results = [check(output_text) for check in safety_checker]
