@@ -2,6 +2,12 @@
 {%- if custom_tools is defined %}
     {%- set tools = custom_tools %}
 {%- endif %}
+{%- if not tools_in_user_message is defined %}
+    {%- set tools_in_user_message = false %}
+{%- endif %}
+{%- if not date_string is defined %}
+    {%- set date_string = "26 Jul 2024" %}
+{%- endif %}
 
 {#- This block extracts the system message, so we can slot it into the right place. #}
 {%- if messages[0]['role'] == 'system' %}
@@ -13,17 +19,28 @@
 
 {#- System message + builtin tools #}
 {{- "<|start_header_id|>system<|end_header_id|>\n\n" }}
-{%- if builtin_tools is defined %}
+{%- if builtin_tools is defined or tools is not none %}
     {{- "Environment: ipython\n" }}
+{%- endif %}
+{%- if builtin_tools is defined %}
     {{- "Tools: " + builtin_tools | reject('equalto', 'code_interpreter') | join(", ") + "\n\n"}}
 {%- endif %}
 {{- "Cutting Knowledge Date: December 2023\n" }}
-{{- "Today Date: 23 Jul 2024\n\n" }}
+{{- "Today Date: " + date_string + "\n\n" }}
+{%- if tools is not none and not tools_in_user_message %}
+    {{- "You have access to the following functions. To call a function, please respond with JSON for a function call." }}
+    {{- 'Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}.' }}
+    {{- "Do not use variables.\n\n" }}
+    {%- for t in tools %}
+        {{- t | tojson(indent=4) }}
+        {{- "\n\n" }}
+    {%- endfor %}
+{%- endif %}
 {{- system_message }}
 {{- "<|eot_id|>" }}
 
 {#- Custom tools are passed in a user message with some extra guidance #}
-{%- if tools is defined and not tools is none %}
+{%- if tools_in_user_message and not tools is none %}
     {#- Extract the first user message so we can plug it in here #}
     {%- if messages | length != 0 %}
         {%- set first_user_message = messages[0]['content']|trim %}
@@ -63,7 +80,7 @@
             {{- ")" }}
         {%- else  %}
             {{- '<|start_header_id|>assistant<|end_header_id|>\n\n' -}}
-            {{- '{"name": "' + tool_call.name + '", ' }}
+            {{- '<|python_tag|>{"name": "' + tool_call.name + '", ' }}
             {{- '"parameters": ' }}
             {{- tool_call.arguments | tojson }}
             {{- "}" }}
